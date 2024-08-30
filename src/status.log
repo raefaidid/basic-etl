@@ -1,0 +1,28 @@
+2024-08-30 13:37:08,270 Extracted data from https://storage.data.gov.my/transportation/cars_2000.parquet
+2024-08-30 13:37:08,581 Extracted data from https://storage.data.gov.my/transportation/cars_2001.parquet
+2024-08-30 13:37:08,906 Extracted data from https://storage.data.gov.my/transportation/cars_2002.parquet
+2024-08-30 13:37:09,232 Extracted data from https://storage.data.gov.my/transportation/cars_2003.parquet
+2024-08-30 13:37:09,906 Extracted data from https://storage.data.gov.my/transportation/cars_2004.parquet
+2024-08-30 13:37:10,519 Extracted data from https://storage.data.gov.my/transportation/cars_2005.parquet
+2024-08-30 13:37:10,989 Extracted data from https://storage.data.gov.my/transportation/cars_2006.parquet
+2024-08-30 13:37:11,479 Extracted data from https://storage.data.gov.my/transportation/cars_2007.parquet
+2024-08-30 13:37:11,999 Extracted data from https://storage.data.gov.my/transportation/cars_2008.parquet
+2024-08-30 13:37:12,585 Extracted data from https://storage.data.gov.my/transportation/cars_2009.parquet
+2024-08-30 13:37:13,269 Extracted data from https://storage.data.gov.my/transportation/cars_2010.parquet
+2024-08-30 13:37:14,019 Extracted data from https://storage.data.gov.my/transportation/cars_2011.parquet
+2024-08-30 13:37:14,916 Extracted data from https://storage.data.gov.my/transportation/cars_2012.parquet
+2024-08-30 13:37:16,144 Extracted data from https://storage.data.gov.my/transportation/cars_2013.parquet
+2024-08-30 13:37:17,319 Extracted data from https://storage.data.gov.my/transportation/cars_2014.parquet
+2024-08-30 13:37:18,230 Extracted data from https://storage.data.gov.my/transportation/cars_2015.parquet
+2024-08-30 13:37:19,349 Extracted data from https://storage.data.gov.my/transportation/cars_2016.parquet
+2024-08-30 13:37:20,249 Extracted data from https://storage.data.gov.my/transportation/cars_2017.parquet
+2024-08-30 13:37:21,080 Extracted data from https://storage.data.gov.my/transportation/cars_2018.parquet
+2024-08-30 13:37:22,301 Extracted data from https://storage.data.gov.my/transportation/cars_2019.parquet
+2024-08-30 13:37:23,699 Extracted data from https://storage.data.gov.my/transportation/cars_2020.parquet
+2024-08-30 13:37:24,713 Extracted data from https://storage.data.gov.my/transportation/cars_2021.parquet
+2024-08-30 13:37:25,774 Extracted data from https://storage.data.gov.my/transportation/cars_2022.parquet
+2024-08-30 13:37:27,027 Extracted data from https://storage.data.gov.my/transportation/cars_2023.parquet
+2024-08-30 13:37:28,571 Extracted data from https://storage.data.gov.my/transportation/cars_2024.parquet
+2024-08-30 13:37:34,562 Transformed data
+2024-08-30 13:37:43,382 Loaded data to parquet
+2024-08-30 13:37:43,382 Dataframe rows: 14146102, columns: 10
