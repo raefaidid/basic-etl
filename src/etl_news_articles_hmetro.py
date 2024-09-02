@@ -27,9 +27,9 @@ def extract_webpages():
 
 
 def get_dataset(lst_webpages: list) -> pd.DataFrame:
+    dataset = []
     for index, item in enumerate(lst_webpages):
 
-        dataset = []
         observations = {}
         observations["title"] = item["title"]
         observations["url"] = item["url"]
@@ -40,21 +40,22 @@ def get_dataset(lst_webpages: list) -> pd.DataFrame:
         observations["word_count"] = item["word_count"]
 
         dataset.append(observations)
-        df = pd.DataFrame(dataset)
+    df = pd.DataFrame(dataset)
     return df
 
 
 def transform_pipeline(df):
     df["body"] = df["url"].apply(get_body)
-    df.assign(
+    df = df.assign(
         body=df.body.str.replace(
             r"<\/?[a-zA-Z][^>]*>|(©.*Bhd)|(^[\w\d@.]*.my)", "", regex=True
         ).str.strip()
     )
+    return df
 
 
 def load_data(df):
-    df.to_csv("../data/hmetro_news_articles.csv", index=False)
+    df.to_csv("data/hmetro_news_articles.csv", index=False)
 
 
 def main():
